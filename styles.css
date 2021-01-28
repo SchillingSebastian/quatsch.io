@@ -1,0 +1,166 @@
+body {
+    height: 100%;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    background-color: #F8F9FA;
+    margin:0;
+}
+
+nav h1 {
+    justify-self: start;
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+nav span {
+    align-self: center;
+    margin-left: auto;
+    font-size: 18px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+nav {
+    display: flex;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+body section {
+    height: 100%;
+}
+
+.blob-1 {
+    position: absolute;
+    z-index: -1;
+}
+
+.blob-2 {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 25%;
+}
+
+.blob-3 {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: -100%;
+}
+
+.further-content {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.hero {
+    margin-top: 8%;
+    display: flex;
+}
+
+.hero .spacer {
+    width: 10%;
+}
+
+.hero-text {
+    width: 35%;
+}
+
+.hero-text-heading {
+    font-weight: 500;
+    font-size: 96px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: max-content;
+}
+
+.hero-text-heading.present {
+    margin-left: auto;
+    width: max-content;
+    margin-right: 5rem;
+}
+
+
+.hero p {
+    font-size: 18px;
+}
+
+.further-content-text-area {
+    display: inline-block;
+    height: max-content;
+    width: 60%;
+}
+
+.align-self-center {
+    align-self: center;
+}
+.m-auto {
+    margin: auto;
+}
+
+.font-medium {
+    font-weight: 500;
+}
+
+.d-flex {
+    display:flex;
+}
+.w-100 {
+    width: 100%;
+}
+
+.about-me {
+    position: absolute;
+    bottom: -100%;
+    width: 20%;
+    padding-left: 1rem;
+}
+
+.pb {
+    padding-bottom: 1.8rem;
+}
+
+.f-col {
+    flex-direction: column;
+}
+@keyframes slide {
+    0%   {transform: translateX(100%);}
+    100% {transform: translateX(-100%);}
+  }
+
+.sayings {
+    position: relative;
+    margin-top: 2rem;
+    animation-name: slide;
+    animation-duration: 24s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: max-content;
+}
+.sayings span {
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-left: 2.3rem;
+    padding-right: 2.3rem;
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}
