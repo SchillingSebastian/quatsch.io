@@ -32,4 +32,4 @@ jobs:
             docker stop quatsch.io
             docker rm quatsch.io
             docker run --name=quatsch.io --restart=always -p 8081:80 \
-              -e -d docker.pkg.github.com/schillingsebastian/quatsch.io/server:production
+              -d docker.pkg.github.com/schillingsebastian/quatsch.io/server:production
