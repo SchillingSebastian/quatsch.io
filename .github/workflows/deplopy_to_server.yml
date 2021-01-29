@@ -28,7 +28,7 @@ jobs:
           key: ${{ secrets.KEY }}
           script: |
             docker login
-            docker pull docker.pkg.github.com/schillingsebastian/quatsch.io/server:latest
+            docker pull docker.pkg.github.com/schillingsebastian/quatsch.io/server:production
             docker stop quatsch.io
             docker rm quatsch.io
             docker run --name=quatsch.io --restart=always -p 8081:80 \
