@@ -27,7 +27,7 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
           script: |
-            docker log in
+            docker login
             docker pull docker.pkg.github.com/schillingsebastian/quatsch.io/server:latest
             docker stop quatsch.io
             docker rm quatsch.io
